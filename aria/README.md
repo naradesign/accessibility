@@ -1,4 +1,4 @@
-# 레진 WAI-ARIA 가이드라인
+# WAI-ARIA 가이드라인
 
 [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.1/)는 HTML의 접근성 문제를 보완하는 W3C 명세입니다. WAI-ARIA는 HTML 요소에 `role` 또는 `aria-*` 속성을 추가하여 콘텐츠의 '역할(roles), 상태(states), 속성(properties)' 정보를 보조기기에 제공합니다.
 
