@@ -37,7 +37,7 @@ WAI-ARIA 속성을 모든 HTML 요소에 무분별하게 사용할 수 있는 �
 
 
 ```html
-<!-- 레진엔터테인먼트에서 사용하고 있는 WAI-ARIA -->
+<!-- **엔터테인먼트에서 사용하고 있는 WAI-ARIA -->
 
 <!-- 역할(roles) -->
 <element role="tablist">
@@ -220,9 +220,9 @@ WAI-ARIA 속성을 모든 HTML 요소에 무분별하게 사용할 수 있는 �
 ```html
 <!-- O: 알럿 대화상자 -->
 <div role="alertdialog" aria-modal="true" aria-labelledby="TITLE" aria-describedby="DESCRIPTION">
-    <h2 id="TITLE">레진패스 안내</h2>
-    <p id="DESCRIPTION">이 작품의 유료 에피소드 열람 시 자동으로 구매합니다. 레진패스를 적용하시겠습니까?</p>
-    <button type="button">레진패스 적용</button>
+    <h2 id="TITLE">**패스 안내</h2>
+    <p id="DESCRIPTION">이 작품의 유료 에피소드 열람 시 자동으로 구매합니다. **패스를 적용하시겠습니까?</p>
+    <button type="button">**패스 적용</button>
     <button type="button">취소</button>
 </div>
 ```
@@ -619,9 +619,9 @@ HTML을 의미에 맞지 않게 마크업한 경우, 또는 스타일링에 필�
         // 보조기기가 무시하는 영역
     </div>
     <div role="alertdialog" aria-modal="true" aria-labelledby="TITLE" aria-describedby="DESCRIPTION">
-        <h2 id="TITLE">레진패스 안내</h2>
-        <p id="DESCRIPTION">이 작품의 유료 에피소드 열람 시 자동으로 구매합니다. 레진패스를 적용하시겠습니까?</p>
-        <button type="button">레진패스 적용</button>
+        <h2 id="TITLE">**패스 안내</h2>
+        <p id="DESCRIPTION">이 작품의 유료 에피소드 열람 시 자동으로 구매합니다. **패스를 적용하시겠습니까?</p>
+        <button type="button">**패스 적용</button>
         <button type="button">취소</button>
     </div>
 </body>
@@ -733,12 +733,12 @@ HTML을 의미에 맞지 않게 마크업한 경우, 또는 스타일링에 필�
 ```html
 <!-- O: 헤딩 설명 참조 -->
 <section aria-labelledby="LZ-PATH" hidden>
-    <h2 id="LZ-PATH">레진패스란?</h2>
+    <h2 id="LZ-PATH">**패스란?</h2>
     <p>이 작품의 유료 에피소드 열람 시 자동으로 구매합니다.</p>
 </section>
 
 <!-- O: 링크 설명 참조 -->
-<a id="LZ-PATH" href="#LZ-PATH-TEXT">레진패스란?</a>
+<a id="LZ-PATH" href="#LZ-PATH-TEXT">**패스란?</a>
 <div id="LZ-PATH-TEXT" aria-labelledby="LZ-PATH" hidden>
     <p>이 작품의 유료 에피소드 열람 시 자동으로 구매합니다.</p>
 </div>
@@ -785,9 +785,9 @@ HTML을 의미에 맞지 않게 마크업한 경우, 또는 스타일링에 필�
 
 <!-- O: 알럿 대화상자 요소에 상세한 설명 제공 -->
 <div role="alertdialog" aria-modal="true" aria-labelledby="TITLE" aria-describedby="DESCRIPTION">
-    <h2 id="TITLE">레진패스 안내</h2>
-    <p id="DESCRIPTION">이 작품의 유료 에피소드 열람 시 자동으로 구매합니다. 레진패스를 적용하시겠습니까?</p>
-    <button type="button">레진패스 적용</button>
+    <h2 id="TITLE">**패스 안내</h2>
+    <p id="DESCRIPTION">이 작품의 유료 에피소드 열람 시 자동으로 구매합니다. **패스를 적용하시겠습니까?</p>
+    <button type="button">**패스 적용</button>
     <button type="button">취소</button>
 </div>
 ```
@@ -829,9 +829,9 @@ HTML을 의미에 맞지 않게 마크업한 경우, 또는 스타일링에 필�
 ```html
 <!-- O: 알럿 대화상자에 aria-modal="true" 선언 -->
 <div role="alertdialog" aria-modal="true" aria-labelledby="TITLE" aria-describedby="DESCRIPTION">
-    <h2 id="TITLE">레진패스 안내</h2>
-    <p id="DESCRIPTION">이 작품의 유료 에피소드 열람 시 자동으로 구매합니다. 레진패스를 적용하시겠습니까?</p>
-    <button type="button">레진패스 적용</button>
+    <h2 id="TITLE">**패스 안내</h2>
+    <p id="DESCRIPTION">이 작품의 유료 에피소드 열람 시 자동으로 구매합니다. **패스를 적용하시겠습니까?</p>
+    <button type="button">**패스 적용</button>
     <button type="button">취소</button>
 </div>
 
